@@ -1,5 +1,7 @@
 def solution(strlist):
     answer = []
-    for k in range(len(strlist)):
-        answer.append(len(strlist[k]))
+    
+    for i in strlist:
+        answer.append(len(i))
+    
     return answer
